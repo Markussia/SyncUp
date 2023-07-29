@@ -1,0 +1,38 @@
+@media screen and (max-width: 768px) {
+  * {
+    font-size: 1em;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  * {
+    font-size: 1em;
+  }
+}
+@media screen and (min-width: 1025px) {
+  .page {
+    font-size: 1.125em;
+  }
+}
+@media (max-width: 870px) {
+  .page .container header .nav-links {
+    display: none;
+  }
+  .page .container header .nav-bar-mobile {
+    display: flex;
+  }
+  .page main .container .h1 {
+    left: 10%;
+  }
+  .page main .container .text {
+    top: 90%;
+    left: 10%;
+  }
+}
+@media (min-width: 870px) {
+  page .container header .nav-links {
+    display: none;
+  }
+  page .container header .nav-bar-mobile {
+    display: flex;
+  }
+}/*# sourceMappingURL=media.css.map */
